@@ -1,0 +1,6 @@
+version: '3.3'
+services:
+  backend:
+     image: yingyimao423/234-deploylab-backend:latest
+     ports:
+       - "8085:8080"
